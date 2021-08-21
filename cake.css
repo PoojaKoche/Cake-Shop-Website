@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+/*CSS for Navbar */
+#navbar{
+    display: flex;
+    height: 85px;
+    align-items: center;
+    background-color: rgb(56 31 31);
+}
+/*CSS for navbar logo */
+#logo img{
+    height: 130px;
+}
+#logo{
+    transition: 1s;
+    margin-top: 20px;
+}
+#logo:hover{
+    transform: scale(1.2);
+}
+/*css for navbar ul,li,a elements */
+#navbar ul{
+    display: flex;
+    font-family: 'Shrikhand', cursive;
+    font-weight: bold;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 25px;
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(35, 17, 59);
+    background-color: rgb(231, 231, 171);
+}
+/* CSS  for home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background: url('Cake/Homepg.jpg') no-repeat center center/cover;
+    height: 610px;
+}
+#home h1{
+    margin-top: 50px;
+
+}
+#home p{
+    color: black;
+    font-family: 'Lobster Two', cursive;
+}
+#home div{
+    margin: 15px;
+    padding: 20px;
+    width: 40%;
+}
+/* CSS for Service section */
+#servicesection{
+    background: url('Cake/service1.jpg') no-repeat top center/cover;
+    height: 610px;
+    opacity: 0.9;
+}
+#servicesection h1{
+    justify-content: center;
+    text-align: center;
+}
+/* css for cake,pestry card(box) to be flex */
+#services{
+    display: flex;
+}
+/* css for cake,pestry card(box) element inside service section */
+#services .box{
+    margin: 50px 70px;
+    padding: 40px;
+    border-radius: 50px;
+    background: rgb(21 15 13 / 60%);
+    border: 2px solid #c8e607;  
+}
+#services h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+#services p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lobster Two', cursive;
+}
+/* CSS for About Us section */
+#aboutsection{
+    display: flex;
+    flex-direction: column;
+    background: url('Cake/About.jpg') no-repeat bottom center/cover;
+    height: 610px;
+    opacity: 0.9;
+}
+#aboutsection h1{
+    justify-content: center;
+    text-align: center;
+}
+.apara img{
+    float: left;
+    height: 200px;
+    margin: 61px 0px 0px 300px;
+}
+.aboutpara p{
+    color: white;
+    text-align: left;
+    font-family: 'Lobster Two', cursive;
+    margin: 50px 200px;
+    padding: 30px;
+}
+/* CSS for Contact Us section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    background: url('cake/Contactus.jpg') no-repeat center center/cover;
+    height: 610px;
+    opacity: 0.9;
+}
+#contact h1{
+    justify-content: center;
+    text-align: center;
+}
+/* css for mail,address,phone,instagram contact element inside contact us section */
+.icons img{
+    height: 100px;
+    width: 100px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    transition: 1s;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+/* CSS for Order Now section */
+#ordernow{
+    display: flex;
+    flex-direction: column;
+    background: url('cake/ordernow.jpg') no-repeat center center/cover;
+    height: 610px;
+    opacity: 0.9;
+}
+#ordernow h1{
+    justify-content: center;
+    text-align: center;
+}
+/* CSS for Form in OrderNow section */
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-element input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    outline: none;
+}
+.form-element label{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px yellow;
+    color:white;
+    font-family: 'Lobster Two', cursive;
+}
+/* checkboxes and quantity element for cake,pestry inside order now section */
+.checkContainerCake input{
+    float: left;
+    margin: 5px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
+.checkContainerPestry input{
+    float: left;
+    margin: 5px;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+}
+.checkContainerCake label{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px yellow;
+    color:white;
+    font-family: 'Lobster Two', cursive;
+}
+.checkContainerPestry label{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px yellow;
+    color:white;
+    font-family: 'Lobster Two', cursive;
+}
+/* css for note inside marquee tag */
+.note {
+    display: flex;
+    background-color: white;
+    font-family: 'Lobster Two', cursive;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 5px;
+    width: 100%;
+}
+/* css for textarea,button,button hover */
+textarea{
+    display: flex;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+    width: 100%; 
+}
+#btn{
+    padding: 2px;
+    margin: 10px 80px;
+    border: 2px solid rgb(245, 10, 10);
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: rgb(23 253 253);
+    cursor: pointer;
+    text-shadow: 1px 1px white;
+    font-family: 'Lobster Two', cursive;
+    outline: none;
+    width: 70%;
+}
+#btn:hover{
+    background-color:rgb(255, 0, 0) ;
+    color: white;
+    border: 2px solid #06f2fa;
+    text-shadow: 1px 1px white;
+}
+/* CSS for footer */
+.fcontainer{
+    background-color: #614545;
+    text-align: center;
+    color: white;
+}
+/* comman css of all headings(h1) inside home,services,about,contact,order now section */
+.mainHeadings{
+    padding: 20px;
+    color: white;
+    font: 3rem bold;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 2px 2px rgb(255 0 0);
+}

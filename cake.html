@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VP Cake Shop</title>
+    <link rel="stylesheet" href="cake.css">
+    <link rel="stylesheet" href="Responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="cake/Vp cake logo.png">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicesection">Services</a></li>
+                <li><a href="#aboutsection">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#ordernow">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1 class="mainHeadings">Welcome to Our Cake Shop</h1>
+        <div>
+            <p>It's hard to find someone who doesn't have strong feelings about a homemade cake recipe. We all have our
+                favorites. For some, it might be a rich, and sweet cake. Others prefer their cake a little airier think
+                angel food cake with a dollop of whipped cream and fresh berries. While some folks won't touch anything
+                but a homemade birthday cake, there are a few of us who love a good old-fashioned grocery store cake.But
+                no matter your preferences, it's good to know the facts when it comes to different kinds of cake.
+            </p>
+        </div>
+    </section>
+    <section id="servicesection">
+        <h1 class="mainHeadings">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <h3>Pestries</h3>
+                <p class="spara">Different kinds of pastries are made by utilizing the natural characteristics of wheat
+                    flour and certain fats. In a typical pastry, however, this toughness is unwanted, so fat or oil is
+                    added to slow down the development of gluten.</p>
+            </div>
+            <div class="box">
+                <h3>Cakes</h3>
+                <p class="spara">Whether you are celebrating a birthday, wedding engagement, anniversary, farewell,
+                    Mother’s Day, Father's Day, Valentine’s Day or any other important moment in your life, a designer
+                    cake is a superb choice to impress your loved ones.</p>
+            </div>
+        </div>
+    </section>
+    <section id="aboutsection">
+        <h1 class="mainHeadings">About Us</h1>
+        <div class="apara">
+            <img src="cake/chef1.png" alt="">
+            <div class="aboutpara">
+                <p>We represents considerable authority in redid wedding cakes commemoration cakes, commitment cakes,
+                    kids birthday cakes, planner cakes, child shower cakes, subject cakes, photograph cakes and
+                    cupcakes,festivity cakes, single girl party cakes, cakes for gifting and then some. a structure you
+                    like, and after that browse tasty flavors, for example, the Belgian Chocolate, Red Velvet,
+                    Hazelnut,Salted Caramel and that’s just the beginning.You would then be able to take a load off, and
+                    anticipate that an awesome cake should touch base at your ideal area, on your picked date and time.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="mainHeadings">Contact Us</h1>
+        <div class="icons">
+            <img src="cake/locationIcon.png" alt="">
+            <p>Shop No. 8,Zero D-Mart 002244</p>
+        </div>
+        <div class="icons">
+            <img src="cake/mailIcon.png" alt="">
+            <p>vpcakeshop@gmail.com</p>
+        </div>
+        <div class="icons">
+            <img src="cake/phoneIcon.png" alt="">
+            <p>1234567890</p>
+        </div>
+        <div class="icons">
+            <img src="cake/instagramIcon.png" alt="">
+            <p>VP_Cake_shop</p>
+        </div>
+    </section>
+    <section id="ordernow">
+        <h1 class="mainHeadings">Order Now</h1>
+        <div id="form">
+            <form action="">
+                <div class="form-element">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-element">
+                    <label for="adress">Adress:</label>
+                    <input type="text" name="name" id="adress" placeholder="Enter Your Adress">
+                </div>
+                <div class="form-element">
+                    <label for="mobile">Phone Number:</label>
+                    <input type="mobile" name="name" id="mobile" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-element">
+                    <label for="order">Your Order:</label>
+                </div>
+                <div class="display">
+                    <div class="checkContainerCake">
+                        <label for="qty">Cake</label>
+                        <input type="checkbox" name="cake" value="cake">
+                        <label for="qty">Quantity</label>
+                        <input type="number" id="qty" min="1" max="10">
+                    </div>
+                    <div class="checkContainerPestry">
+                        <label for="qty">Pestry</label>
+                        <input type="checkbox" name="pestry" value="pestry">
+                        <label for="qty">Quantity</label>
+                        <input type="number" id="qty" min="1" max="10">
+                    </div>
+                </div>
+                <div class="note">
+                    <marquee>
+                        <p>Note: Please Select Checkbox and Quntity as per your order.</p>
+                    </marquee>
+                </div>
+                <textarea name="message" id="message" cols="76" rows="4"
+                    placeholder="  Tell Me More About Your Order :)"></textarea>
+                <button id="btn" onclick="myFunction()">Order Now</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="fcontainer">
+            Copyright@2021 All Rights Reserved
+        </div>
+    </footer>
+    <script src="cake.js"></script>
+</body>
+
+</html>

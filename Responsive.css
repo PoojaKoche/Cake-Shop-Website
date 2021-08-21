@@ -1,0 +1,228 @@
+@media only screen and (max-width: 945px){
+/* navigation */
+#navbar{
+    flex-direction: column;
+    height: 145px;
+}
+#logo{
+    margin: 0px;
+}
+#logo img{
+    height: 100px;
+}
+#navbar ul li{
+    font-size: 20px;
+}
+#navbar ul li a{
+    padding: 5px 17px;
+}
+/* home section */
+#home div{
+    padding: 18px;
+    width: 85%;
+    background: rgb(21 15 13 / 5%); 
+    border-radius: 50px;
+}
+#home p{
+    color: white;
+}
+/* Service section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 30px;
+    padding: 10px;
+}
+#services p{
+    padding: 10px;
+}
+#services h3{
+    font-size: 20px;
+}
+/* About section */
+.apara img {
+    height: 150px;
+    margin: 70px 10px;
+}
+.apara p{
+    width: 80%;
+    margin: 10px;
+    padding: 40px;
+}
+/* Order Now */
+#form{
+    margin-left: 190px;
+}
+.form-element input{
+    width: 70%;
+}
+.form-element label{
+    display: block;
+    font-size: 1.4rem;
+}
+.display{
+    flex-direction: column;
+}
+.checkContainerCake label{
+    font-size: 1.3rem;
+}
+.checkContainerPestry label{
+    font-size: 1.3rem;
+}
+.note{
+    width: 70%;
+}
+textarea{
+    width: 70%;
+}
+#btn{
+    width: 40%;
+    font-size: 1.4rem;
+    margin: 10px 65px;
+    padding: 2px;
+}
+.mainHeadings{
+    font: 2.5rem bold;
+    font-family: 'Alfa Slab One', cursive;
+}
+}
+@media only screen and (max-width: 640px){
+/* Nagivation */
+ #navbar ul li{
+    font-size: 15px;
+}
+#navbar ul li a {
+    padding: 5px 10px;
+}
+/* home section  */
+#home p{
+    text-align: center;
+}
+/* order now section */
+#form{
+    margin-left: 100px;
+}
+.mainHeadings{
+    font: 2rem bold;
+    font-family: 'Alfa Slab One', cursive;
+}
+}
+@media only screen and (max-width: 450px){
+/* Navigation */
+#navbar{
+    height: 100%;
+    width: 102%;
+}
+#navbar ul{
+    flex-direction: column;
+}
+#logo img {
+    height: 80px;
+}
+#navbar ul li a {
+    padding: 5px 6px;
+}
+#navbar ul li {
+    font-size: 12px;
+    text-align: center;
+}
+/* Home section */
+#home{
+    width: 102%;
+}
+#home div{
+    width: 78%;
+    padding: 10px
+}
+/* Service section */
+#servicesection{
+    width: 102%;
+}
+#services .box {
+    margin: 15px;
+    padding: 0px;
+    width: 90%;
+}
+#aboutsection{
+    width: 102%;
+} 
+/* About Section */
+.apara img {
+    height: 90px;
+    margin: 10px 10px;
+}
+.apara p {
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+/* Contact section */
+#contact{
+    width: 102%;
+}
+.icons img {
+    height: 90px;
+    width: 90px;
+}
+.icons p{
+    font-size: 13px;
+}
+.icons:hover {
+    transform: scale(1.08);
+}
+/* Order now section */
+#ordernow{
+    width: 102%;
+}
+#form {
+    margin-left: 20px;
+}
+.form-element label {
+    font-size: 1.1rem;
+    margin: 5px;
+}
+.form-element input {
+    width: 85%;
+    padding: 0.2rem;
+}
+.display{
+    margin: 5px;
+}
+.checkContainerCake label {
+    font-size: 1.1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.checkContainerPestry label {
+    font-size: 1.1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.checkContainerCake input{
+    height: 16px;
+}
+.checkContainerPestry input{
+    height: 16px;
+}
+.note {
+    width: 85%;
+    margin: 5px;
+}
+textarea {
+    width: 85%;
+}
+#btn{
+    font-size: 1.2rem;
+    width: 47%;
+    margin: 10px 76px;
+}
+.mainHeadings {
+    font: 1.5rem bold;
+    font-family: 'Alfa Slab One', cursive;
+}
+/* footer */
+.fcontainer{
+    width: 102%;
+}
+}
